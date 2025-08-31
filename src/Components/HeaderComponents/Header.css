@@ -226,7 +226,7 @@
 
 /* The user icon */
 .profile .ic {
-  font-size: 28px;        /* icon size */
+  font-size: 24px;        /* icon size */
   color: #333;            /* default icon color */
   transition: color 0.2s; /* smooth hover effect */
 }
