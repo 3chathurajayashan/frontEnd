@@ -117,16 +117,26 @@ export default function Header() {
                    </div>
  
 
-            <div className="icons">
+           <div className="icons">
 
-                <div className="cart">
-                    <IoCartOutline className='ic'/>
-                    <p className='count'>0</p>
-                </div>
-                <FaRegCircleUser className='ic'/>
-               <TbMessageCircle className='ic'/>
+  
+  <div className="cart">
+    <IoCartOutline className='ic'/>   
+    <p className='count'>0</p>         
+  </div>
 
-            </div>
+  <div className="profile"> 
+  <Link to="/SignIn">
+    <FaRegCircleUser className='ic'/>  
+  </Link> 
+</div>
+
+
+  {/* Message Icon */}
+  <TbMessageCircle className='ic'/>    
+
+</div>
+
 
 
         </div>

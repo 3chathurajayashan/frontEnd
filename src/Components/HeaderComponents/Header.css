@@ -72,11 +72,11 @@
   gap: 30px;
 
 }
-.ic{
-  font-size: 20px;
-  cursor: pointer;
-    color: #333;
-
+.ic {
+  font-size: 24px;       
+  color: #333;          
+  cursor: pointer;        
+  transition: color 0.2s;
 }
 .cart{
   position: relative;
@@ -206,4 +206,32 @@
 .loglink{
    text-decoration: none;
    color: rgb(31, 31, 31);
+}
+
+/* Profile container */
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer; /* makes the whole div clickable */
+}
+
+/* Link inside profile */
+.profile a {
+  display: flex;          /* ensures icon inside link is centered */
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;  /* remove underline if any */
+}
+
+/* The user icon */
+.profile .ic {
+  font-size: 28px;        /* icon size */
+  color: #333;            /* default icon color */
+  transition: color 0.2s; /* smooth hover effect */
+}
+
+/* Hover effect */
+.profile:hover .ic {
+  color: #007bff;         /* icon color changes on hover */
 }

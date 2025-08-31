@@ -50,7 +50,7 @@ export default function Product() {
             <div className="no-image">No Image Available</div>
           )}
 
-          {/* Product Details */}
+           
           <h3>{p.name}</h3>
           <p>{p.description}</p>
 
