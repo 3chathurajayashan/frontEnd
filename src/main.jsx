@@ -8,6 +8,9 @@ import Details from '../src/Pages/Details.jsx'
 import Upload from './Pages/Upload.jsx';
 import Innovations from './Pages/Innovations.jsx';
 import SignIn from './Pages/SignIn.jsx';
+import Login from "./Pages/Login.jsx"
+import Profile from "./Pages/Profile.jsx"
+ 
  
 
 const router = createBrowserRouter([
@@ -37,6 +40,16 @@ const router = createBrowserRouter([
     path:"/SignIn",
     element: <SignIn />,
   },
+   {
+    path:"/Login",
+    element: <Login />,
+  },
+     {
+    path:"/profile",
+    element: <Profile />,
+  },
+   
+   
    
 ]);
 

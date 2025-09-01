@@ -235,3 +235,13 @@
 .profile:hover .ic {
   color: #007bff;         /* icon color changes on hover */
 }
+.SIGN {
+  pointer-events: auto !important;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.SN{
+  color: #2575fc;
+}

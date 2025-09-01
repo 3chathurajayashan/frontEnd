@@ -1,10 +1,10 @@
-import React from 'react'
-import Signin from '../Components/LoginSection/Signin'
+ 
+import Register from '../Components/Register/Register'
 
 function SignIn() {
   return (
     <>
-    <Signin />
+    <Register />
    
       
     </>
